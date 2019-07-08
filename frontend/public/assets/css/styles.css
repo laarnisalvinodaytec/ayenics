@@ -1,0 +1,406 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #eeeeee;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+
+}
+
+
+.landing.col-sm-12.col-md-12.col-lg-12.py-2{
+
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	margin-top:-15%;
+	-moz-box-shadow:    inset 0 0 10px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 10px #FFFFFF;
+   box-shadow:         inset 0 0 10px #FFFFFF;
+   background-color: #FFFFFF;
+   border-radius: 6px;
+
+}
+div.welcome{
+	height: 400px;
+	background: url(../images/ayenics5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: lightgrey;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  color:#ffff;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark.sticky-top {
+   background-color: #18271a !important;
+   position: fixed;
+  /*top: -100px;*/
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+div.col-landing-photo.col-sm-12.col-md-12.col-lg-12{
+	height:auto;
+}
+
+hr{
+	margin-top: -15px;
+}
+
+p.description{
+	color:#FF7F50; 
+	font-size: 15px;
+
+}
+p.description-content{
+	font-size: 15px;
+	color:grey;
+}
+ul.description-content{
+	font-size: 15px;
+	color:grey;
+}
+.dropdown-item{
+	font-size: 15px;
+	color:grey;
+}
+
+
+.row-landing-photo{
+	margin-bottom: 5rem;
+}
+
+.price-icon{
+	color: grey;
+}
+
+.price{
+	color:grey;
+}
+.btn{
+	color:grey;	
+}
+.dropdown-item:hover{
+	background-color: #FF7F50;
+}
+h4.tagline{
+	color:grey;
+}
+
+img{
+  height: auto;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-size: contain;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  border-radius: .25rem;
+  width: 100%;
+}
+
+a.btn.order-button.py-2.px-5{
+
+	background-color:#FF6347; 
+	border-radius: 2px;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	color: lightgrey;
+}
+a.btn.order-button.py-2.px-5:hover{
+
+	background-color: #FF7400;
+
+}
+a.btn.buy-button.py-2.px-5{
+
+	background-color:#18271a; 
+	border-radius: 2px;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	color: lightgrey;
+
+}
+a.btn.buy-button.py-2.px-5:hover{
+	background-color: #008000;
+
+}
+
+
+i.fas.fa-car-side{
+	color: skyblue;
+}
+i.far.fa-credit-card{
+	color:green;
+}
+i.fas.fa-pencil-ruler{
+	color:pink;
+} 
+
+div.container.decoration{
+	height: auto;
+	
+}
+
+div.decoration-photo-2{
+	height: 400px;
+	margin-top: 7rem;
+	display: flex;
+
+}
+
+div.decoration-photo-3{
+	height: 400px;
+	margin-top: 7rem;
+	display: flex;
+
+
+}
+div.deco-content{
+	border:1px;
+	border-style: solid;
+	border-color: orange;
+	height: 300px;
+	width: 60%;
+	margin:auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+}
+p.deco-text{
+	color: grey;
+}
+h5.deco-text{
+	color: grey;
+}
+.mechanics-item{
+	font-size: 15px;
+	color:grey;
+
+}
+.card.mechanics-div{
+	background-color: #FFE6B5;
+	border-radius: 5px;
+
+}
+.card.mechanics-div1{
+	background-color: #8FBC8F;
+	border-radius: 5px;
+
+}
+.card.mechanics-div2{
+	background-color: #5e79bb;
+	border-radius: 5px;
+
+}
+
+/*gallery*/
+
+.gallery_item{
+	height: 600px;
+	width: 100%;
+	margin:auto;
+	display: flex;
+	border-radius: 5px;
+	overflow: auto;
+
+}
+
+.img_item{
+	height:auto;
+}
+
+.img-fluid{
+	height: auto;
+	margin-top: 1rem;
+}
+
+div.card.item-card{
+	margin-bottom: 5rem;
+  
+}
+
+div.contact.col-sm-12.col-md-12.col-lg-12{
+	height: 500px;
+	background-color:#21130c !important; 
+}
+
+div.card-deck.mechanics-container{
+	margin-top:15rem;
+
+
+}
+
+p.img-fluid-content.text-center{
+	color:#FF7F50; 
+	font-size: 15px;
+	margin-top:1rem;
+}
+
+p.img-fluid-description.text-center{
+	color:#FF7F50; 
+	font-size: 15px;
+	margin-top:1rem;
+	color: grey;
+}
+.deco-content{
+	color:#FF7400;
+}
+
+footer{
+   height: auto;
+   width: 100%;
+   background-color: #18271a;
+   color: white;
+   text-align: center;
+  
+}
+
+.footer-content{
+	color:lightgrey;
+}
+
+/*loginPage*/
+
+nav.navbar.navbar-login.navbar-expand-md.navbar-light.shadow-sm{
+
+	background-color: #FF7F50 !important; 
+}
+div.card-body{
+	background-color: #FF7F50 !important; 
+	border-radius: 5px;
+
+}
+
+button.btn.btn-login{
+	width: 100px;
+	color: lightgrey;
+	background-color: #192140;
+}
+button.btn.btn-login:hover{
+	background-color: #000061;
+}
+
+button.btn.btn-register{
+	width: 100px;
+	color: lightgrey;
+	background-color: #192140;
+}
+button.btn.btn-register:hover{
+	background-color: #000061;
+}
+
+a.btn.btn-link{
+	color: black;
+}
+button.btn.btn-password-reset{
+	color:black;
+}
+
+.btn.dropdown-toggle.cart-item{
+	font-size: 12px;
+}
+i.fas.fa-minus{
+	opacity: 0.5;
+
+}
+i.fas.fa-minus:hover{
+	opacity: 0.8;
+}
+i.fas.fa-plus{
+	opacity: 0.5;
+
+}
+i.fas.fa-plus:hover{
+	opacity: 0.8;
+}
+button.minus{
+	border-radius: 3px;
+
+}
+button.plus{
+	border-radius: 3px;
+}
+div.cart-landingSpace{
+	height:1000px;
+	background: url(../images/ayenics5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+div.addToCart-landingSpace{
+	height: 100px;
+
+}
+div.wrapper.cart-wrapper{
+	background: url(../images/ayenics5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+img.cart-photo{
+	height:100px;
+	width: 80%;
+
+}
+div.addToCart-col.col-sm-12.col-md-9.col-lg-9{
+	background-color: #FFFF;
+}
+div.addToCart-col.col-sm-12.col-md-3.col-lg-3{
+	background-color: #F5F5F5;
+}
+h5.order-col.mt-5{
+	margin-left:10px;
+}
+button.btn.order-btn{
+	background-color: #FF7F50;
+	margin-left: 10px;
+	
+}
+div.icon{
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  margin-right: 1em;
+  background-color: white;
+  text-align: center;
+  padding-top:7px;
+  border-radius: 25px;
+
+}
+div.icon:hover{
+	background-color: #F5F5F5;
+}
+
+
+
+
+
+
+
+
